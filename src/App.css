@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  background-color: #102216;
+}
+
+input[type="date"] {
+  color: transparent;
+}
+
+input[type="date"]:focus {
+  color: transparent;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #13ec5b;
+  border-radius: 5px;
+}
