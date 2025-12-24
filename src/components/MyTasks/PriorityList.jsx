@@ -18,7 +18,7 @@ export default function PriorityList({ tasks, setTasks }) {
       ""
     ) : (
       <h2 className="text-white text-[18px] font-bold mt-[30px] ml-[20px]">
-        Low
+        Na less
       </h2>
     );
   const medium =
@@ -26,7 +26,7 @@ export default function PriorityList({ tasks, setTasks }) {
       ""
     ) : (
       <h2 className="text-white text-[18px] font-bold mt-[30px] ml-[20px]">
-        Medium
+        Not really important
       </h2>
     );
   const high =
@@ -34,7 +34,7 @@ export default function PriorityList({ tasks, setTasks }) {
       ""
     ) : (
       <h2 className="text-white text-[18px] font-bold mt-[30px] ml-[20px]">
-        High
+        Asap abeg!
       </h2>
     );
 
