@@ -30,17 +30,17 @@ export default function NewTask({ tasks, setTasks, task, setTask }) {
     <>
       <Header />
 
-      <div className="mt-[20px] ">
+      <div className="mt-5 ">
         <form onSubmit={() => handleSubmit()}>
           <TitleInput task={task} setTask={setTask} />
           <DescriptionInput task={task} setTask={setTask} />
           <DueDateInput task={task} setTask={setTask} />
           <PriorityButtons task={task} setTask={setTask} />
-          <div className="w-[343px] mx-[auto] mt-7  ">
+          <div className="max-w-7xl mx-auto flex justify-center mt-14  ">
             <button
               type="submit"
               disabled={disabled}
-              className="w-[343px] h-[53px] bg-[#13ec5b] rounded-xl font-bold "
+              className="w-85 h-13 bg-[#13ec5b] rounded-xl font-bold "
               onClick={(e) => handleClick(e)}
             >
               Create Task
