@@ -39,7 +39,7 @@ export default function MyTasksItem({ item, tasks, setTasks }) {
     <>
       <article
         draggable
-        className="w-[343px] mx-[auto] text-white mt-[10px] mb-5 flex items-center  justify-between "
+        className="w-85 mx-auto text-white mt-2 mb-5 flex items-center  justify-between "
       >
         <div className="flex items-center">
           <input
@@ -48,7 +48,7 @@ export default function MyTasksItem({ item, tasks, setTasks }) {
             checked={item.completed}
             className={completedCheckClass}
           />
-          <div className="mx-[20px]  ">
+          <div className="mx-5  ">
             <h3 className={completedItemClass}>{item.title}</h3>
             <div className={priorityClass}>
               <div className="text-[6px] ">{priorityLevel()}</div>
